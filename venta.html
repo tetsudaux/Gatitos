@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/animation.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="shortcut icon" href="images/logo_cat.png" type="image/x-icon">
+    <title>The Cat In A Box</title>
+</head>
+<body>
+    <header class="cabecera fadeInDown">
+        <figure class="logo">
+            <img src="images/logo_cat.png" alt="">
+        </figure>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="#">FAQs</a>
+                </li>
+                <li>
+                    <a href="#">Productos</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- EMPIEZA FORMULARIO VENTA -->
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="modulo_pago">
+                    <div class="modulo_pago_images">
+                        <img src="images/box2.png" alt="">
+                    </div>
+                    <h3>Producto 1</h3>
+                    <p>El mejor gatito en el mercado, dentro de la mejor cajita :3</p>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="modulo_pago">
+                    <form action="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J5N4YV87BZFSW" method="post" target="_top">
+                        <input type="hidden" name="cmd" value="_s-xclick" />
+                        <input type="hidden" name="hosted_button_id" value="J5N4YV87BZFSW" />
+                        <inputtype="hidden" name="first_name" value="John">
+						<inputtype="hidden" name="night_phone_a" value="610">
+  						<inputtype="hidden" name="mail" value="jdoe@zyzzyu.com">
+                        <label for="first_name">Nombre</label><br>
+                        <input type="text" id="name" placeholder="juanito" name="first_name" class="data"><br>
+                        <label for="email">Correo</label><br>
+                        <input type="email" id="mail" name="email" class="data"><br>
+                        <label for="night_phone_a">Telefono</label><br>
+                        <input type="number" id="phone" name="night_phone_a" maxlength="10" class="data"><br>
+                        <input type="submit" class="caja_boton" name="submit" value="Confirmar pago">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- EMPIEZA FORMULARIO BENEFICIOS -->
+    <footer class="pies">
+        <div class="footer_text">
+            <p><a href="#">Terminos y Condiciones</a></p>
+        </div>
+        <div class="footer_text2">
+            <p><a href="#">contacto@gmail.com</a></p>
+        </div>
+    </footer>
+</body>
+</html>

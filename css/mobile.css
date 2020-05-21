@@ -1,0 +1,32 @@
+@media (max-width: 800px) {
+    .cajas, .feature_boxes, .cajas_menciones {
+        flex-direction: column;
+        margin-top: auto;
+    }
+    .caja, .feature_box, .caja_mencion {
+        width: 600px;
+    }
+
+}
+
+@media (max-width: 600px) {
+    body {
+        background-color: khaki;
+        display: inherit;
+        height: auto;
+    }
+
+    .hero {
+        padding: 4%;
+    }
+    .hero_text {
+        margin: 20px 5%;
+    }
+    .cajas, .feature_boxes, .cajas_menciones {
+        flex-direction: column;
+        margin-top: auto;
+    }
+    .caja, .feature_box, .caja_mencion {
+        width: 400px;
+    }
+}

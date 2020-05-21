@@ -1,0 +1,251 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500;700&display=swap');
+
+:root {
+/* COLORES */
+    --skyblue: #7BDFF2;
+    --celeste: #B2F7EF;
+    --cultured: #EFF7F6;
+    --piggypink: #F7D6E0;
+    --cottoncandy: #F2B5D4;
+}
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    font-family: 'Ubuntu';
+}
+
+p,label {
+    font-size: 10px;
+}
+
+label {
+    padding-bottom: 5px;
+}
+
+.cabecera {
+    background-color: var(--cottoncandy);
+    box-shadow: 0 0 5px var(--cottoncandy);
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.logo img{
+    width: 32px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--cultured);
+}
+.menu a:hover {
+    text-decoration: none;
+    color: var(--skyblue);
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+   
+}
+
+.menu ul li {
+    margin: 0px 5px;
+}
+
+.hero {
+    background-color: var(--cultured);
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0;
+}
+
+.hero_text {
+    margin: 50px 20%;
+    text-align: center;
+}
+
+.cajas {
+    display: flex;
+    flex-direction: row;
+}
+
+.caja {
+    background-color: white;
+    align-content: center;
+    margin: 10px;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: ;
+    box-shadow: 0 0 5px #dddddd;
+}
+
+.caja_image{
+    text-align: center;
+}
+
+.caja_image img{
+    width: 128px;
+}
+
+.caja_boton {
+    display: block;
+    text-decoration: none;
+    background-color: var(--skyblue);
+    padding: 10px 25%;
+    border-radius: 15px;
+    margin: 5px 0;
+    color: var(--cultured);
+}
+
+.caja_boton:hover{
+    background-color: var(--cottoncandy);
+    color: var(--cultured);
+}
+
+.features {
+    background-color: var(--skyblue);
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.features h2 {
+    margin: 20px 0;
+}
+
+.feature_boxes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feature_box {
+    background-color: var(--cultured);
+    border-radius: 15px;
+    width: 350px;
+    margin: 10px 10px;
+    padding: 10px 5px;
+}
+
+.feature_box_image img {
+    width: 150px;
+}
+
+.menciones {
+    background-color: var(--cultured);
+    padding: 20px 10px;
+}
+
+.menciones h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cajas_menciones {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 15px;
+}
+
+.caja_mencion {
+    /* width: 300px; */
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    box-shadow: 0 0 5px #dddddd;
+}
+
+.mencion_image img{
+    border-radius: 15px 15px 0 0;
+    width: 100%;
+}
+
+.mencion_descripcion {
+    margin: 5px 10px 8px 10px;
+}
+
+.mention_url {
+    display: block;
+    text-decoration: none;
+    text-align: right;
+    color: var(--cottoncandy);
+    border: 2px var(--cottoncandy);
+    margin: 2px;
+}
+
+.mention_url:hover {
+    text-decoration: none;
+    text-align: right;
+    color: var(--piggypink);
+}
+
+.pies {
+    height: 80px;
+    background-color: rgb(136, 74, 105);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.pies a {
+    text-decoration: none;
+    color: white;
+}
+.pies a:hover {
+    color: var(--piggypink);
+}
+
+
+.container h1{
+    text-align: center;
+    padding: 20px 0;
+}
+
+.cat {
+    width: 300px;
+    /* border-radius: 100%; */
+
+}
+
+/* ------------------- MODULO VENTA */
+.modulo_pago {
+    background-color: white;
+    box-shadow: 0 0 10px rgb(235, 235, 235);
+    padding: 10px
+}
+
+.modulo_pago_images {
+    max-width: 150px;
+    text-align: center;
+    width: 100%;
+    margin: auto;
+}
+
+.modulo_pago input {
+    margin-top: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid #7BDFF2;
+    box-sizing: border-box;
+}
+
+.contact a {
+    color: hotpink;
+}
